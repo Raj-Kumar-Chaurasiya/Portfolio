@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Raj Kumar Chaurasiya</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container nav-bar">
+      <h1 class="logo">Raj Kumar</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#internship">Internship</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="CV_Format_MCA1.doc" download id="downloadCV" class="btn">Download CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm <span>Raj</span> 👋</h2>
+      <p>Aspiring MCA | Full Stack Developer</p>
+      <a href="#contact" class="btn primary">Hire Me</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container fade-in">
+    <h2>About Me</h2>
+    <p>
+      I am pursuing a Master of Computer Applications with a passion for
+      web development, problem-solving, and innovative technology.
+      I enjoy creating clean, user-friendly, and impactful projects.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container fade-in">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="card">C</div>
+      <div class="card">Java</div>
+      <div class="card">Python</div>
+      <div class="card">PHP</div>
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">Node.js</div>
+      <div class="card">MySQL</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container fade-in">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Online Voting System</h3>
+      <p>
+        A secure web application built using HTML, CSS, Java, and MySQL.
+      </p>
+    </div>
+  </section>
+
+  <!-- Internship -->
+  <section id="internship" class="container fade-in">
+    <h2>Internship</h2>
+    <div class="project-card">
+      <h3>Full Stack Web Development Intern</h3>
+      <h4>Mindenious, Bangalore | June 2025 – August 2025</h4>
+      <ul>
+        <li>Worked on both frontend and backend of a web application.</li>
+        <li>Built responsive UI using HTML, CSS, and JavaScript.</li>
+        <li>Developed backend APIs with Node.js.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container fade-in">
+    <h2>Contact Me</h2>
+    <div class="contact-box">
+      <p><strong>Email:</strong> <a href="mailto:rajchaurasiya9236@gmail.com">rajchaurasiya9236@gmail.com</a></p>
+      <p><strong>Phone:</strong> 9236407588</p>
+      <p><strong>Location:</strong> Mirzapur, Uttar Pradesh, India</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Raj Kumar Chaurasiya | Built with ❤</p>
+  </footer>
+
+  <!-- Modal for CV -->
+  <div id="cvModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="checkmark-wrapper">
+        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+          <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+          <path class="checkmark-check" fill="none" d="M14 27l7 7 16-16"/>
+        </svg>
+      </div>
+      <h2>CV Download Started</h2>
+      <p>Your CV is downloading successfully 🚀</p>
+    </div>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>
